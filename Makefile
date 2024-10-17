@@ -1,5 +1,8 @@
 # Makefile for systems with GNU tools
-CC 	=	gcc
+
+# CC 	=	gcc
+CC 	=	$(CROSS_COMPILE)gcc
+
 INSTALL	=	install
 IFLAGS  = -idirafter dummyinc
 #CFLAGS = -g

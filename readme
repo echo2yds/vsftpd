@@ -1,3 +1,9 @@
+2024-10-17 11:34:12
+source setenv.sh;make clean;make
+or
+make clean;make CROSS_COMPILE=arm-linux-gnueabihf-
+
+
 Found 2 sites for vsftpd
 
     https://security.appspot.com/vsftpd.html
